@@ -52,7 +52,7 @@ const config: Config = {
   			}
   		},
   		fontFamily: {
-  			brush: ['Brush Script MT"', 'cursive']
+  			brush: ['Brush Script MT', 'cursive']
   		},
   		borderRadius: {
   			lg: 'var(--radius)',

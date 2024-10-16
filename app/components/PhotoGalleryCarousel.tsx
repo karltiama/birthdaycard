@@ -11,7 +11,7 @@ import {
 } from "@/components/ui/carousel"
 import { Card, CardContent } from "@/components/ui/card"
 import { ScrollArea } from "@/components/ui/scroll-area"
-import { photos, PhotoItem } from "@/app/data/photoData"
+import { photos } from "@/app/data/photoData"
 
 export default function PhotoGalleryCarousel() {
   return (

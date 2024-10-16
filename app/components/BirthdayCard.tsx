@@ -1,7 +1,6 @@
 'use client'
 
 import { useState, useCallback } from 'react';
-import Confetti from 'react-confetti';
 
 export function BirthdayCard({ onConfettiChange }: { onConfettiChange: (show: boolean) => void }) {
   const [isHovered, setIsHovered] = useState(false);
@@ -35,7 +34,7 @@ export function BirthdayCard({ onConfettiChange }: { onConfettiChange: (show: bo
         <h3 className="font-sans text-[#333] text-center m-[30px] outline-dotted outline-[#333]">HAPPY 29th BIRTHDAY!</h3>
         <p className="font-brush m-[40px] text-[#333]">
           Jomai HAPPY BIRTHDAY! I love you so much and I am so grateful to have you in my life. 
-          I am so excited for our future together. Here is a little website I made for you. ps. click the playlist to lighten the vibe!
+          I am so excited for our future together. Here is a little website I made for you.
         </p>
       </div>
     </div>

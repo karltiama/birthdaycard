@@ -10,7 +10,7 @@ type TimeLeft = {
   seconds: number
 }
 
-export default function Component({ targetDate = "2024-10-18T09:00:00-04:00" }: { targetDate?: string }) {
+export default function Countdown({ targetDate = "2024-10-18T09:00:00-04:00" }: { targetDate?: string }) {
   const [timeLeft, setTimeLeft] = useState<TimeLeft>({ days: 0, hours: 0, minutes: 0, seconds: 0 })
 
   useEffect(() => {

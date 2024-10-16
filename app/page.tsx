@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { BirthdayCard } from './components/BirthdayCard';
 import Confetti from 'react-confetti';
-import PhotoCardGrid from './components/PhotoCardGrid';
+import Countdown from './components/Countdown';
 import CouponGrid from './components/CouponGrid';
 import PhotoGalleryCarousel from './components/PhotoGalleryCarousel';
 export default function Home() {
@@ -29,6 +29,9 @@ export default function Home() {
       </div>
       <div className="w-full py-16">
         <PhotoGalleryCarousel />
+      </div>
+      <div className="w-full py-16">
+        <Countdown />
       </div>
       <div className="w-full py-16">
         <CouponGrid />

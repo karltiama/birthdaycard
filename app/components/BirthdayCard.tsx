@@ -23,7 +23,7 @@ export function BirthdayCard({ onConfettiChange }: { onConfettiChange: (show: bo
       onMouseLeave={handleMouseLeave}
     >
       <div className={`relative bg-white w-[250px] h-[350px] overflow-hidden [transform-origin:left] shadow-[inset_100px_20px_100px_rgba(0,0,0,0.2),30px_0_50px_rgba(0,0,0,0.4)] transition duration-600 ${isHovered ? '[transform:rotateY(-160deg)]' : ''}`}>
-        <h3 className={`font-sans text-center m-[30px] bg-gradient-to-r from-[#f6d365] to-[#fda085] transition duration-100 ${isHovered ? 'invisible' : ''}`}>HAPPY BIRTHDAY MY LOVE!</h3>
+        <h3 className={`font-sans text-center m-[30px] bg-gradient-to-r from-[#f6d365] to-[#fda085] transition duration-100 ${isHovered ? 'invisible' : ''}`}>Click or Hover to Open!</h3>
         <div className="absolute">
           <div className="absolute w-[85px] h-[95px] rounded-full bg-[rgba(239,71,111,0.7)] left-[-10px] top-[50px] before:content-[''] before:absolute before:w-[1px] before:h-[155px] before:bg-[#ffd166] before:top-[95px] before:left-[43px] after:content-[''] after:absolute after:border-r-[7px] after:border-r-transparent after:border-l-[7px] after:border-l-transparent after:border-b-[10px] after:border-b-[#ef476f] after:top-[94px] after:left-[37px]"></div>
           <div className="absolute w-[85px] h-[95px] rounded-full bg-[rgba(6,214,160,0.7)] left-[50px] top-[20px] before:content-[''] before:absolute before:w-[1px] before:h-[155px] before:bg-[#ffd166] before:top-[95px] before:left-[43px] after:content-[''] after:absolute after:border-r-[7px] after:border-r-transparent after:border-l-[7px] after:border-l-transparent after:border-b-[10px] after:border-b-[#06d6a0] after:top-[94px] after:left-[37px]"></div>
@@ -32,11 +32,10 @@ export function BirthdayCard({ onConfettiChange }: { onConfettiChange: (show: bo
         </div>
       </div>
       <div className="absolute bg-white w-[250px] h-[350px] -z-10 left-0 top-0 shadow-[inset_100px_20px_100px_rgba(0,0,0,0.2)]">
-        <h3 className="font-sans text-[#333] text-center m-[30px] outline-dotted outline-[#333]">HAPPY BIRTHDAY JOMAIII!</h3>
-        <p className="font-brush m-[40px] text-[#333]">Dear Jomai,</p>
+        <h3 className="font-sans text-[#333] text-center m-[30px] outline-dotted outline-[#333]">HAPPY 29th BIRTHDAY!</h3>
         <p className="font-brush m-[40px] text-[#333]">
-          Happy birthday!! I hope your day is filled with lots of love and
-          laughter! May all of your birthday wishes come true.
+          Jomai HAPPY BIRTHDAY! I love you so much and I am so grateful to have you in my life. 
+          I am so excited for our future together. Here is a little website I made for you. ps. click the playlist to lighten the vibe!
         </p>
       </div>
     </div>

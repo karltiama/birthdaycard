@@ -84,7 +84,8 @@ const photos: PhotoItem[] = [
 
 export default function PhotoGalleryCarousel() {
   return (
-    <div className="flex justify-center items-center min-h-screen p-4">
+    <div className="flex flex-col items-center min-h-screen p-4">
+      <h2 className="text-3xl font-bold text-center text-white mb-8">Our Memories Together</h2>
       <Carousel className="w-full max-w-4xl">
         <CarouselContent>
           {photos.map((photo, index) => (
@@ -118,6 +119,7 @@ export default function PhotoGalleryCarousel() {
         <CarouselPrevious className="left-2 md:-left-12" />
         <CarouselNext className="right-2 md:-right-12" />
       </Carousel>
+      <h2 className="text-3xl font-bold text-center text-white mb-8">And many more to come...</h2>
     </div>
   )
 }

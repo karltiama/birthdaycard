@@ -50,15 +50,15 @@ function Coupon({ discountAmount, expirationDate, code }: CouponProps) {
 }
 
 const coupons: CouponProps[] = [
-  { discountAmount: "Free Dance Show ", expirationDate: "2023-12-31", code: "LETSDANCE" },
-  { discountAmount: "Movie Night (You Pick the Movie)", expirationDate: "2023-11-30", code: "MOVIENIGHT" },
-  { discountAmount: "No-Questions-Asked Snack Delivery", expirationDate: "2023-10-31", code: "SNACKTIME" },
+  { discountAmount: "Free Dance Show ", expirationDate: "2024-12-01", code: "LETSDANCE" },
+  { discountAmount: "Movie Night (You Pick the Movie)", expirationDate: "2024-12-01", code: "MOVIENIGHT" },
+  { discountAmount: "No-Questions-Asked Snack Delivery", expirationDate: "2024-12-01", code: "SNACKTIME" },
   { discountAmount: "Free Massage", expirationDate: "No Expiration Date", code: "FREESPA" },
-  { discountAmount: "Breakfast in Bed", expirationDate: "2024-01-31", code: "BFAST" },
-  { discountAmount: "Sing a Song", expirationDate: "2023-11-15", code: "BESTSINGER" },
-  { discountAmount: "Free Shipping", expirationDate: "2023-12-15", code: "FREESHIP" },
-  { discountAmount: "Unlimited Hugs", expirationDate: "2023-10-15", code: "HUGS2GO" },
-  { discountAmount: "Personal Uber", expirationDate: "2023-11-01", code: "UBER24" },
+  { discountAmount: "Breakfast in Bed", expirationDate: "2024-12-01", code: "BFAST" },
+  { discountAmount: "Sing a Song", expirationDate: "2024-12-01", code: "BESTSINGER" },
+  { discountAmount: "Unlimited Kisses", expirationDate: "2024-12-01", code: "FREESHIP" },
+  { discountAmount: "Unlimited Hugs", expirationDate: "2024-12-01", code: "HUGS2GO" },
+  { discountAmount: "Personal Uber", expirationDate: "2024-12-01", code: "UBER24" },
 ]
 
 export default function Component() {
